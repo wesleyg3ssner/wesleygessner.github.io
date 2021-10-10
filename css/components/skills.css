@@ -1,0 +1,38 @@
+#skills {
+    display: flex;
+    background-color: var(--blue-first-color);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-bottom: 10px solid var(--white-first-color);
+}
+
+#skills_title {
+    font-size: 40px;
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
+    color: var(--white-first-color);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 95px;
+}
+
+.skill {
+    width: 430px;
+    margin: 38px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    margin-left: 30px;
+}
+
+.progress_title {
+    font-size: 25px;
+    font-family: "Press Start 2P", sans-serif;
+    color: var(--white-first-color);
+    margin-bottom: 16px;
+}

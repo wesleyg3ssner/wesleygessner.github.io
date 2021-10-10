@@ -1,11 +1,9 @@
 #hero-container {
-    position: absolute;
-    background-image: url("/assets/img/bg-hero.jpg");
+    height: 100vh;
+    background-image: url("../../assets/img/bg-hero.jpg");
     background-color: var(--white-second-color);
+    background-position-x: right;
     background-repeat: no-repeat;
-    background-position: right;
-    height: 84vh;
-    width: 100%;
     border-bottom: 10px solid var(--blue-second-color);
 }
 
@@ -13,7 +11,7 @@
     width: 700px;
     margin-top: 116px;
     margin-left: 91px;
-
+    position: absolute;
 }
 
 #hero-card {
