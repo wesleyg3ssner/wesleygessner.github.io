@@ -1,7 +1,6 @@
-#contact_container {
-    background-color: var(--blue-second-color);
+#contact {
+    background-color: var(--red-first-color);
     font-family: "Fira Code", sans-serif;
-    border-bottom: 10px solid var(--white-first-color);
 }
 
 #contact_title {
@@ -12,7 +11,7 @@
     padding: 50px 0;
 }
 
-#contact {
+#contact_form {
     display: flex;
     flex-direction: column;
     margin: 0 50px;
@@ -42,7 +41,7 @@
     font-size: 30px;
     font-weight: 300;
     color: var(--blue-second-color);
-    margin-bottom: 47px;
+    margin-bottom: 100px;
     cursor: pointer;
     border: none;
     box-shadow: 5px 5px 0px #000;
