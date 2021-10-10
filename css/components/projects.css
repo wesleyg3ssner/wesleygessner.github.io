@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-around;
 
-    background-color: #000;
+    background-color: var(--red-first-color);
 
     border-bottom: 10px solid var(--white-first-color);
 }
@@ -23,6 +23,12 @@
     height: 280px;
     margin: 100px 10px;
     box-shadow: 10px 10px 0px var(--white-first-color);
+    text-align: center;
+}
+
+.project img {
+    max-width: 200px;
+    width: 100%;
 }
 
 .project.github {
@@ -30,5 +36,9 @@
 }
 
 .project.selfcare {
-    background-color: var(--blue-second-color);
+    background-color: var(--blue-first-color);
+}
+
+.project.test {
+    background-color: var(--blue-first-color);
 }
