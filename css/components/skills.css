@@ -1,10 +1,11 @@
 #skills {
     display: flex;
-    background-color: var(--blue-first-color);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--blue-first-color);
     margin: 0 auto;
+    padding-bottom: 195px;
     border-bottom: 10px solid var(--white-first-color);
 }
 

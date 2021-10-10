@@ -9,9 +9,8 @@
 
 #hero {
     width: 700px;
-    margin-top: 116px;
-    margin-left: 91px;
-    position: absolute;
+    padding-top: 116px;
+    padding-left: 91px;
 }
 
 #hero-card {
