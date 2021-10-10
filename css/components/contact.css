@@ -1,0 +1,49 @@
+#contact_container {
+    background-color: var(--blue-second-color);
+    font-family: "Fira Code", sans-serif;
+    border-bottom: 10px solid var(--white-first-color);
+}
+
+#contact_title {
+    text-align: center;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: var(--white-first-color);
+    padding: 50px 0;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+#contact label {
+    color: var(--white-first-color);
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+#contact .input {
+    height: 50px;
+    margin-bottom: 20px;
+    border: 4px solid #000;
+}
+
+#contact textarea#msg {
+    height: 318px;
+    margin-bottom: 40px;
+    border: 4px solid #000;
+}
+
+#contact button#send {
+    height: 60px;
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--blue-second-color);
+    margin-bottom: 47px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 0px #000;
+}
