@@ -59,3 +59,27 @@ header nav ul a#button:hover {
     opacity: 0.8;
     transform: scale(1.04);
 }
+
+@media (max-width: 760px) {
+    header {
+        flex-direction: column;
+    }
+
+    header #logo {
+        margin: 20px;
+        font-size: 40px;
+    }
+    
+    header nav ul a{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+        font-size: 25px;
+    }
+
+    header nav ul a::before {
+        content: "";
+        width: 0;
+        height: 0;
+    }
+}
