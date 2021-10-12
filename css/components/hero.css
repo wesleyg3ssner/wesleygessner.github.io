@@ -60,3 +60,33 @@
     opacity: 0.9;
     transform: scale(1.02);
 }
+
+@media (max-width: 768px) {
+    #hero-container {
+        height: 50vh;
+    }
+
+    #hero {
+        width: 320px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    #hero-card {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    #hero-title {
+        font-size: 22px;
+    }
+
+    #hero-subtitle {
+        font-size: 20px;
+    }
+
+    #hero-buttons .btn {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+}
