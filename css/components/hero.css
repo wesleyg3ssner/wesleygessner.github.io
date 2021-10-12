@@ -63,7 +63,11 @@
 
 @media (max-width: 768px) {
     #hero-container {
+<<<<<<< HEAD
         height: 60vh;
+=======
+        height: 50vh;
+>>>>>>> 63b2ab136322f46476c42d046a38ddef4b47cadc
     }
 
     #hero {
