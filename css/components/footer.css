@@ -9,3 +9,18 @@
 .box_footer {
     width: 150px;
 }
+
+@media (max-width: 768px) {
+    #footer {
+        height: 120px;
+        justify-content: space-around;
+    }
+
+    .box_footer {
+        width: 50px;
+    }
+    .box_footer a img{
+        max-width: 50px;
+        width: 100%;
+    }
+}
