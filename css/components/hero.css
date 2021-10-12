@@ -63,11 +63,7 @@
 
 @media (max-width: 768px) {
     #hero-container {
-<<<<<<< HEAD
         height: 60vh;
-=======
-        height: 50vh;
->>>>>>> 63b2ab136322f46476c42d046a38ddef4b47cadc
     }
 
     #hero {
@@ -77,16 +73,17 @@
     }
 
     #hero-card {
+        max-width: 300px;
         width: 100%;
         padding: 30px 10px;
     }
 
     #hero-title {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #hero-subtitle {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #hero-buttons .btn {
