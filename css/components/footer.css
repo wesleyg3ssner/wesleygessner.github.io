@@ -1,4 +1,4 @@
-#footer {
+.c-footer {
     height: 120px;
     background-color: #000;
     display: flex;
@@ -6,20 +6,20 @@
     justify-content: center;
 }
 
-.box_footer {
+.c-footer__box {
     width: 150px;
 }
 
 @media (max-width: 768px) {
-    #footer {
+    .c-footer {
         height: 120px;
         justify-content: space-around;
     }
 
-    .box_footer {
+    .c-footer__box {
         width: 50px;
     }
-    .box_footer a img{
+    .c-footer__box .c-footer__image{
         max-width: 50px;
         width: 100%;
     }

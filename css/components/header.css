@@ -1,4 +1,4 @@
-header {
+.c-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,14 +8,14 @@ header {
     padding: 10px 20px;
 }
 
-header #logo {
+.c-header__logo {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     color: var(--white-first-color);
     text-shadow: 5px 3px 0px var(--blue-second-color);
 }
 
-header nav ul a {
+.c-header .menu__item {
     display: inline-flex;
     align-items: center;
     font-family: 'Fira Code', Arial, monospace, sans-serif;
@@ -28,11 +28,11 @@ header nav ul a {
     transition: opacity 300ms linear;
 }
 
-header nav ul a:hover {
+.c-header .menu__item:hover {
     opacity: 0.7;
  }
 
-header nav ul a::before{
+.c-header .menu__item::before{
     content: "";
     background-color: var(--white-second-color);
     width: 10px;
@@ -41,11 +41,11 @@ header nav ul a::before{
     transition: background-color 300ms linear;
 }
 
-header nav ul a:hover:before {
+c.c-header .menu__item:hover:before {
     background-color: var(--blue-second-color);
 }
 
-header nav ul a#button {
+.c-header .menu__item--button {
     display: inline-block;
     background-color: var(--white-first-color);
     color: var(--blue-second-color);
@@ -55,29 +55,29 @@ header nav ul a#button {
     transition: transform 150ms linear, opacity 150ms linear;
 }
 
-header nav ul a#button:hover {
+.c-header .menu__item--button:hover {
     opacity: 0.8;
     transform: scale(1.04);
 }
 
 @media (max-width: 760px) {
-    header {
+    .c-header {
         flex-direction: column;
     }
 
-    header #logo {
+    .c-header__logo {
         margin: 20px;
         font-size: 40px;
     }
     
-    header nav ul a{
+    .c-header .menu__item{
         display: flex;
         flex-direction: column;
         margin: 25px 0;
         font-size: 25px;
     }
 
-    header nav ul a::before {
+    .c-header .menu__item::before {
         content: "";
         width: 0;
         height: 0;

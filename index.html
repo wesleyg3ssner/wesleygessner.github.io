@@ -22,169 +22,166 @@
     <link rel="stylesheet" href="./css/components/footer.css">
 </head>
 <body>
-    <header>
-        <h1 id="logo">
+    <header class="c-header">
+        <h1 class="c-header__logo">
             WG
             <!--<img src="assets/img/logo1.png" alt="logo">--> 
         </h1>
 
-        <nav>
-           <ul>
-                <a href="#skills" lang="en">Skills</a>
-                <a href="#projects">Projetos</a>
-                <a href="#about">Sobre</a>
-                <a href="#contact">Contato</a>
-                <a href="#" id="button" lang="en">Download CV</a>
+        <nav >
+           <ul class="c-header__menu">
+                <a href="#skills" lang="en" class="menu__item">Skills</a>
+                <a href="#projects" class="menu__item">Projetos</a>
+                <a href="#about" class="menu__item">Sobre</a>
+                <a href="#contact" class="menu__item">Contato</a>
+                <a href="#" class="menu__item menu__item--button" lang="en">Download CV</a>
            </ul>
         </nav>
     </header>
 
-    <div id="hero-container">
-        <div id="hero">
-            <div id="hero-card">
-                <h2 id="hero-title">Wesley Gessner</h2>
-                <h3 id="hero-subtitle">Developer</h3>
-            </div>
-        
-            <div id="hero-buttons">
-                <a href="" class="btn" lang="en">Download CV</a>
-                <a href="#contact" class="btn">Contato</a>
-            </div>
+    <section class="c-hero">
+        <div class="c-hero__card">
+            <h2 class="card__title">Wesley Gessner</h2>
+            <h3 class="card__subtitle">Developer</h3>
         </div>
-    </div>
+        
+        <div class="c-hero__buttons">
+            <a href="" class="buttons__btn" lang="en">Download CV</a>
+            <a href="#contact" class="buttons__btn">Contato</a>
+        </div>
+    </section>
 
-    <div id="skills">
-            <h2 id="skills_title">Skills</h2>
+    <section class="c-skills">
+            <h2 class="c-skills__title">Skills</h2>
     
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_html5.png" alt="icon html5">
     
-                    <div class="progress">
-                        <h3 class="progress_title">HTML5</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">HTML5</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_css3.png" alt="icon css3">
     
-                    <div class="progress">
-                        <h3 class="progress_title">CSS3</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">CSS3</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_js.png" alt="icon javascript">
     
-                    <div class="progress">
-                        <h3 class="progress_title">JavaScript</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">JavaScript</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_php.png" alt="icon php">
     
-                    <div class="progress">
-                        <h3 class="progress_title">PHP</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">PHP</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_mysql.png" alt="icon mysql">
     
-                    <div class="progress">
-                        <h3 class="progress_title">MySQL</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">MySQL</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-            <div class="skill">
+            <div class="c-skills__box">
                     <img src="./assets/img/ico_restapi.png" alt="icon rest api">
     
-                    <div class="progress">
-                        <h3 class="progress_title">Rest API</h3>
+                    <div class="c-skills__progress">
+                        <h3 class="progress__title">Rest API</h3>
     
-                        <img src="./assets/img/bar.png" alt="progress bar">
+                        <img src="./assets/img/bar.png" alt="progress bar" class="progress__image">
                     </div>
             </div>
-    </div>
+    </section>
 
-    <div id="projects">
-        <h1 id="projects_title">Projetos</h1>
+    <section class="c-projects">
+        <h1 class="c-projects__title">Projetos</h1>
 
-        <div class="project github">
+        <div class="c-projects__project github">
             <a href="https://github.com/wesleygessner" target="_blank">
-                <img src="./assets/img/github.png" alt="github">
+                <img src="./assets/img/github.png" alt="github" class="project__image">
             </a>
         </div>
-        <div class="project selfcare">
+        <div class="c-projects__project selfcare">
             <a href="https://wesleygessner.github.io/selfcare-challenge/" target="_blank">
-                <img src="./assets/img/selfcare.png" alt="selfcare">
+                <img src="./assets/img/selfcare.png" alt="selfcare" class="project__image">
             </a>
         </div>
-        <div class="project test">
+        <div class="c-projects__project test">
             <a href="">
-                <img src="" alt="">
+                <img src="" alt="" class="project__image">
             </a>
         </div>
-    </div>
+    </section>
 
-    <div id="about">
-        <h2 id="about_title">Sobre</h2>
+    <section class="c-about">
+        <h2 class="c-about__title">Sobre</h2>
 
-        <p id="about_text">
+        <p class="c-about__text">
             Atualmente, estudante de desenvolvimento web, Wesley está cursando a faculdade de Gestão da Tecnologia da Informação. <br><br>
             Estou sempre em busca de novas informações sobre tecnologia para me adaptar a esse novo mundo. Meu objetivo principal é me tornar um desenvolvedor backend, mas acredito que ter uma identidade visual é muito importante para qualquer área e por conta disso, estudo a parte do frontend também. <br><br>
             Nas minhas horas livres gosto de jogar um lolzinho, chama lá nick: cMadara
         </p>
-    </div>
+    </section>
 
+    <section class="c-contact">
+        <h2 class="c-contact__title">Contato</h2>
 
-    <div id="contact">
-        <h2 id="contact_title">Contato</h2>
-
-        <form action="" id="contact_form">
+        <form action="" class="c-contact__form">
             <label for="name">Nome</label>
-            <input type="text" name="name" id="name" class="input">
+            <input type="text" name="name" id="name" class="form__input">
             
 
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" class="input">
+            <input type="email" name="email" id="email" class="form__input">
             
 
             <label for="msg">Mensagem</label>
-            <textarea name="mensagem" id="msg" cols="0" rows="0">
+            <textarea name="mensagem" id="msg" cols="0" rows="0" class="form__input">
 
             </textarea>
             
 
-            <button id="send">Enviar</button>
+            <button class="form__button">Enviar</button>
         </form>
-    </div>
+    </section>
 
-    <footer id="footer">
-        <div class="box_footer facebook">
+    <footer class="c-footer">
+        <div class="c-footer__box facebook">
             <a href="https://www.facebook.com/wesleygessner1/" target="_blank">
-                <img src="./assets/img/ico_facebook.png" alt="icon facebook">
+                <img src="./assets/img/ico_facebook.png" alt="icon facebook" class="c-footer__image">
             </a>
         </div>
-        <div class="box_footer instagram">
+        <div class="c-footer__box instagram">
             <a href="https://www.instagram.com/wesleygessner/" target="_blank">
-                <img src="./assets/img/ico_instagram.png" alt="icon instagram">
+                <img src="./assets/img/ico_instagram.png" alt="icon instagram" class="c-footer__image">
             </a>
         </div>
 
-        <div class="box_footer whatsapp">
+        <div class="c-footer__box whatsapp">
             <a href="https://api.whatsapp.com/send?phone=5511956775671" target="_blank">
-                <img src="./assets/img/ico_whatsapp.png" alt="icon whatsapp">
+                <img src="./assets/img/ico_whatsapp.png" alt="icon whatsapp" class="c-footer__image">
             </a>
         </div>
-        <div class="box_footer linkedin">
+        <div class="c-footer__box linkedin">
             <a href="https://www.linkedin.com/in/wesleygessner/" target="_blank">
-                <img src="./assets/img/ico_linkedin.png" alt="icon linkedin">
+                <img src="./assets/img/ico_linkedin.png" alt="icon linkedin" class="c-footer__image">
             </a>
         </div>
     </footer>
