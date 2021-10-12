@@ -37,3 +37,27 @@
     color: var(--white-first-color);
     margin-bottom: 16px;
 }
+
+@media (max-width: 768px) {
+    #skills {
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .skill {
+        width: 300px;
+        margin: 38px auto;
+    }
+
+    .skill img {
+        width: 60px;
+    }
+
+    .progress img {
+        width: 100%;
+    }
+
+    .progress_title {
+        font-size: 18px;
+    }
+}
