@@ -46,3 +46,9 @@
     border: none;
     box-shadow: 5px 5px 0px #000;
 }
+
+@media (max-width: 768px) {
+    #contact textarea#msg {
+        height: 220px;
+    }
+}

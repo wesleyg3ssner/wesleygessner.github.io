@@ -22,3 +22,10 @@
     width: 1000px;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    #about_text {
+        font-size: 20px;
+        width: 320px;
+    }
+}
