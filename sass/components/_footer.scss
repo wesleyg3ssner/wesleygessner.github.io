@@ -4,23 +4,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.c-footer__box {
-    width: 150px;
+    .c-footer__box {
+        width: 150px;
+    }
 }
 
 @media (max-width: 768px) {
     .c-footer {
         height: 120px;
         justify-content: space-around;
-    }
 
-    .c-footer__box {
-        width: 50px;
-    }
-    .c-footer__box .c-footer__image{
-        max-width: 50px;
-        width: 100%;
+        .c-footer__box {
+            width: 50px;
+
+            .c-footer__image{
+                max-width: 50px;
+                width: 100%;
+            }
+        }
     }
 }
