@@ -1,7 +1,17 @@
 :root {
-    --blue-first-color: #3498DB;
+    --blue-first-color: rgb(52, 152, 219);
     --blue-second-color: #34495E;
     --white-first-color: #ECF0F1;
     --white-second-color: #BDC3C7;
-    --red-first-color: #EF233C;
+    --red-first-color: rgb(239, 35, 60);
+}
+
+@mixin gradient-red {
+    background: rgb(239, 35, 60);
+    background: linear-gradient(90deg, rgba(239, 35, 60, 1) 28%, rgba(0, 0, 0, 1) 100%, rgba(255, 255, 255, 1) 100%);
+}
+
+@mixin gradient-blue {
+    background: rgb(52, 152, 219);
+    background: linear-gradient(90deg, rgba(52, 152, 219, 1) 28%, rgba(0, 0, 0, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }

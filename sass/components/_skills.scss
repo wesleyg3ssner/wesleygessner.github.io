@@ -3,10 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--blue-first-color);
     margin: 0 auto;
     padding-bottom: 195px;
     border-bottom: 10px solid var(--white-first-color);
+    @include gradient-red;
 
     .c-skills__title {
         font-size: 40px;

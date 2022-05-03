@@ -1,5 +1,5 @@
 .c-contact {
-    background-color: var(--red-first-color);
+    @include gradient-blue;
     font-family: "Fira Code", sans-serif;
 
     .c-contact__title {

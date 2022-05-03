@@ -10,9 +10,9 @@
     .c-hero__card {
         width: 627px;
         padding: 40px 30px;
-    
+
         margin-left: 100px;
-        background-color: var(--white-first-color);
+        background-color: var(--red-first-color);
         text-align: center;
         font-family: 'Press Start 2P', cursive;
         box-shadow: 10px 10px 0px var(--blue-second-color);
@@ -25,7 +25,7 @@
         .card__subtitle {
             font-size: 30px;
             font-weight: 500;
-            color: var(--blue-first-color);
+            color: var(--white-first-color);
             text-shadow: 4px 4px 0px var(--blue-second-color);
         }
     }
@@ -46,8 +46,8 @@
             width: 100%;
             padding: 20px 18px;
             color: var(--white-first-color);
-            background-color: var(--blue-first-color);
-            box-shadow: 5px 5px 0px var(--blue-second-color);
+            background-color: var(--blue-second-color);
+            box-shadow: 5px 5px 0px var(--red-first-color);
             transition: transform 150ms linear, opacity 150ms linear;
 
             &:hover {
