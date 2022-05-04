@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     @include gradient-red;
-    border-bottom: 10px solid #2C3E50;
+    border-bottom: 10px solid var(--white-first-color);
     padding: 10px 20px;
 
     .c-header__logo {

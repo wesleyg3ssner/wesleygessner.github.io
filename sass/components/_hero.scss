@@ -1,10 +1,10 @@
 .c-hero {
     height: 70vh;
     background-image: url("../../assets/img/bg-hero.jpg");
-    background-color: var(--white-second-color);
+    @include gradient-blue;
     background-position-x: right;
     background-repeat: no-repeat;
-    border-bottom: 10px solid var(--blue-second-color);
+    border-bottom: 10px solid var(--white-second-color);
     padding: 100px 0;
 
     .c-hero__card {
